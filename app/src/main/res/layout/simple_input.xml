@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:rowCount="2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvInput"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:gravity="right|center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/silver"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:paddingRight="5dp"
+        android:fontFamily="@font/pockcalc"/>
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:maxLines="1"
+        android:gravity="right|center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/silver"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:paddingRight="5dp"
+        app:autoSizeTextType="uniform"
+        android:fontFamily="@font/pockcalc"/>
+
+</LinearLayout>
